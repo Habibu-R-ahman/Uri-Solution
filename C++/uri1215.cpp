@@ -3,7 +3,6 @@
 #define write() freopen("output.txt", "w", stdout)
 using namespace std;
 
-
 int main(void)
 {
     string s;
