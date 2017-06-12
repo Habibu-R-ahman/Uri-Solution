@@ -5,8 +5,6 @@ using namespace std;
 
 int main(void)
 {
-    read();
-    write();
     int n, tc = 1;
 
     while(cin >> n){
@@ -14,11 +12,11 @@ int main(void)
             break;
 
         map<int, int> m;
-        double totalx = 0.0, totaly = 0.0;
+        int totalx = 0, totaly = 0;
         for(int i = 0, x, y; i < n; i++){
             cin >> x >> y;
-            totalx += (double)x;
-            totaly += (double)y;
+            totalx += x;
+            totaly += y;
             m[y/x] += x;
         }
 
@@ -34,11 +32,7 @@ int main(void)
             else
                 cout << " ";
         }
-        double res = totaly / totalx;
-        int dec = res;
-        res -= dec;
-        res *= 1000;
-        cout << "Consumo medio: " << dec << "." << ((int)res % 100 == 0? 00: (int)res % 100) << " m3." << endl;
+        cout << fixed << setprecision(2) << "Consumo medio: " << floor(100 * (double)totaly / totalx) / 100 << " m3." << endl;
         cout << endl;
     }
 
