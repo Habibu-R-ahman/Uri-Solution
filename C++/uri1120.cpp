@@ -5,8 +5,6 @@ using namespace std;
 
 int main(void)
 {
-    read();
-    write();
     int n;
     string s;
 
@@ -34,8 +32,6 @@ int main(void)
         else
             cout << s << endl;
     }
-
-
 
     return 0;
 }
