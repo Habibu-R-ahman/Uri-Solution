@@ -22,7 +22,6 @@ int main(void)
         else if(n == 2)
             break;
     }
-
     cout << tc << " grenais" << endl;
     cout << "Inter:" << f << endl;
     cout << "Gremio:" << s << endl;

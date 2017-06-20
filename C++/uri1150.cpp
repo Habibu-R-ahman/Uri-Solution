@@ -11,8 +11,11 @@ int main(void)
             break;
 
     int con = 0, sum = 0;
-    for(int i = a; sum <= b; i++)
-        sum += i, con++;
+    for(int i = a; sum <= b; i++){
+        sum += i;
+        con++;
+    }
+
 
     cout << con << endl;
 
