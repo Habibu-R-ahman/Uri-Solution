@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define FV 1.25506
+#define Fix 1.25506
 using namespace std;
 
 int main(void)
@@ -7,8 +7,7 @@ int main(void)
     int n;
     cin >> n;
 
-    cout << fixed << setprecision(1);
-    cout << (n / log(n)) << " " << ((FV * n) / (log(n))) << endl;
+    cout << fixed << setprecision(1) << (n / log(n)) << " " << (Fix * n) / log(n) << endl;
 
     return 0;
 }
