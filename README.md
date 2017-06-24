@@ -1,3 +1,4 @@
+[CopyrightLicense]:https://github.com/MrinmoiHossain/Uri-Solution/blob/master/LICENSE
 <p align="center">
 	<a href="https://www.urionlinejudge.com.br/judge/es/profile/84898">
 		<i>Uri Online Judge</i>
