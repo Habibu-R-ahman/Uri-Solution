@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://www.urionlinejudge.com.br/judge/es/profile/84898">
-		<big><i>Uri Online Judge</i></big>
+		<i>Uri Online Judge</i>
 	</a>
 </p>
 <p align="center">
