@@ -10,11 +10,12 @@ int main(void)
         cin >> a >> b;
 
         int sum = 0, con = 0;
-        for(int j = a; con < b; j++)
+        for(int j = a; con < b; j++){
             if(j & 1){
                 sum += j;
                 con++;
             }
+        }
 
         cout << sum << endl;
     }
