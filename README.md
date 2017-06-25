@@ -1,8 +1,7 @@
 [CopyrightLicense]:https://github.com/MrinmoiHossain/Uri-Solution/blob/master/LICENSE
 <p align="center">
 	<a href="https://www.urionlinejudge.com.br/judge/es/profile/84898">
-		<img src="https://goo.gl/images/LTJycB">
-		<i>Uri Online Judge</i>
+		<img src="C++/icon.png">
 	</a>
 </p>
 <p align="center">
